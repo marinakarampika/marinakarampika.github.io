@@ -6,11 +6,11 @@ body {
 	background: #ec6337;
 	font-family: "Changa One";
 	font-weight: 600;
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .seperator{
-    height:30%;
+    height: 70px;
 }
 
 .headings{
@@ -18,8 +18,9 @@ body {
     margin:0;
     text-align: center;
     color: #ec6337;
-    font-size: 300%;
+    font-size: 5vh;
 }
+
 
 .screenshot{
     display:flex; 
@@ -44,17 +45,17 @@ body {
 }
 
 .team_profile img{
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 200px;
-  height: 250px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 40vh;
+  height: 50vh;
 }
 
 .team_profile p{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   color:#530101;
-  font-size: 100%;
+  font-size: 3vh;
   text-align: left;
 }
 
@@ -75,8 +76,6 @@ body {
 }
 
 .newsic img{
-  height: 40px; 
-  width: 50px;
   float: left;
   display: block;
   text-align: center;
@@ -85,9 +84,8 @@ body {
 }
 
 .platform{
-    margin-top: 70px;
+    margin-top: 2vh;
     background-color: #530101;
-    max-height: fit-content;
     border-top-right-radius: 25%;
     border-top-left-radius: 25%;
     text-align: center;
@@ -96,14 +94,14 @@ body {
 .platform h1 {
     margin: 2%;
     color: #ec6337;
-    font-size: 250%;
+    font-size: 5vh;
 }
 
 .text_red{
     margin:0;
     text-align: justify;
     color: #530101;
-    font-size: 150%;
+    font-size: 3.8vh;
     font-weight: 30;
 }
 
@@ -111,7 +109,7 @@ body {
     margin:0;
     text-align: justify;
     color: #ec6337;
-    font-size: 130%;
+    font-size: 3.5vh;
     font-weight: 10;
 }
 
@@ -125,7 +123,7 @@ body {
 ul{
     margin:0;
     color: #530101;
-    font-size: 200%;
+    font-size: 4vh;
     font-weight: 30;
 }
 
@@ -207,5 +205,5 @@ nav a:hover::before{
     border-color: transparent;
     color: #530101;
     font-family: "Changa One"; 
-    font-size: 130%; 
+    font-size: 3.5vh; 
 } 
