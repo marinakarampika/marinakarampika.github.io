@@ -136,10 +136,10 @@ ul{
 }
 
 .logo{
-    margin-top: 1%;
+    margin-top: 5px;
     float: center;
-    height: 47px; 
-    width: 62px;
+    height: 55px; 
+    width: 75px;
 }
 
 .container {
@@ -170,8 +170,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 5px;
-  padding-top: 5%;
+  margin: 8px;
+  padding-top: 10px;
   position: relative;
 }
 
@@ -189,7 +189,7 @@ nav a:hover{
 nav a::before {
   content: '';
   display: block;
-  height: 10%;
+  height: 5px;
   background-color: #ec6337;
 
   position: absolute;
