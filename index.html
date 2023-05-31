@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="../assets/images/logo.png">
-    <link rel="stylesheet" type="text/css" href="../static/styles.css">  
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">  
     <title>NEWSIC</title>
 </head>
 
@@ -65,14 +65,21 @@
             <img src="../assets/images/artist_profile.png">
             <img  src="../assets/images/contest.png"><br>
       </div><br>
-      <button class="sub_btn" href="#">Share your opinion!</button>
-      </div>
+      <button class="sub_btn" id="myButton">Share your opinion!</button>
+      <div class="seperator"></div>
+      </div><br>
       <div class="newsic">
-        <img src="../assets/images/logo.png">
-        <a href="https://www.instagram.com/newsicindustries/" target="_blank"><img src="../assets/images/instagram-icon-33469.png" id="icon" style="height: 40px; width: 40px;"></a>> &emsp;
-        <a href="https://www.linkedin.com/company/newsic/" target="_blank"><img src="../assets/images/linkedin-logo-png-1826.png" id="icon" style="height: 40px; width: 40px;"></a> &emsp; 
-        <a href ="mailto:newsicindustries@gmail.com"><img src="../assets/images/logo-gmail-9952.png" id="icons" style="height: 40px; width: 50px;"></a> &emsp;        
+        <img src="../assets/images/logo.png" style="height: 25px; width: 34px;">
+        <a href="https://www.instagram.com/newsicindustries/" target="_blank"><img src="../assets/images/instagram-icon-33469.png" id="icon" style="height: 20px; width: 20px;"></a>> &emsp;
+        <a href="https://www.linkedin.com/company/newsic/" target="_blank"><img src="../assets/images/linkedin-logo-png-1826.png" id="icon" style="height: 20px; width: 20px;"></a> &emsp; 
+        <a href ="mailto:newsicindustries@gmail.com"><img src="../assets/images/logo-gmail-9952.png" id="icons" style="height: 20px; width: 30px;"></a> &emsp;        
     </div>
 </body>
+
+<script type="text/javascript">
+  document.getElementById("myButton").onclick = function () {
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSebzDRtXLSXXE-lGvPxPfDPbrr0gD97NTI-tm3cGqRiZnzzug/viewform?usp=sf_link", "_blank");
+  };
+</script>
 
 </html>

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Changa+One&display=swap');
+
+
+body {
+	margin: 0;
+	background: #ec6337;
+	font-family: "Changa One";
+	font-weight: 400;
+  overflow-y: scroll;
+}
+
+.seperator{
+    height: 70px;
+}
+
+.headings{
+    background-color: #530101;
+    margin:0;
+    text-align: center;
+    color: #ec6337;
+    font-size: 5vh;
+}
+
+
+.screenshot{
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height:fit-content; 
+    width: fit-content;
+}
+
+.screenshot img{
+    width: 20%;
+    height: 20%;
+}
+
+.team_profile{
+  margin: 20px;
+  display:flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+.team_profile img{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 160px;
+  height: 200px;
+}
+
+.text{
+  display:flex; 
+  flex-direction: row; 
+  margin: auto;
+  width: 65%;
+  justify-content: center; 
+  max-height:fit-content; 
+  max-width: fit-content;
+} 
+
+
+.text div {
+  padding: 5%;
+}
+
+.newsic{
+  background-color: #530101;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.newsic a{
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1%;
+}
+
+.newsic img{
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1%;
+}
+
+.platform{
+    margin-top: 2vh;
+    background-color: #530101;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    text-align: center;
+}
+
+.platform h1 {
+    margin: 2%;
+    color: #ec6337;
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.text_red{
+    margin:0;
+    text-align: justify;
+    color: #530101;
+    font-size: 3.8vh;
+    font-weight: 30;
+}
+
+.text_orange{
+    margin:0;
+    text-align: justify;
+    color: #ec6337;
+    font-size: 3.5vh;
+    font-weight: 10;
+}
+
+
+.text_div{
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+}
+
+ul{
+    margin:0;
+    color: #530101;
+    font-size: 4vh;
+    font-weight: 30;
+}
+
+.logo{
+    margin-top: 5px;
+    float: center;
+    height: 55px; 
+    width: 75px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #530101;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 8px;
+  padding-top: 10px;
+  position: relative;
+}
+
+nav a {
+  color: #ec6337ba;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+nav a:hover{
+  color: #ec6337;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ec6337;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+
+.sub_btn{
+    margin: 2%;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ec6337;
+    border-color: transparent;
+    color: #530101;
+    font-family: "Changa One"; 
+    font-size: 3.5vh; 
+} 
